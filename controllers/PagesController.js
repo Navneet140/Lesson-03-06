@@ -12,8 +12,8 @@ exports.about = (req, res) => {
   });
 };
 
-exports.thing = (req, res) => {
-  res.render(`${viewPath}/thing`, {
-    pageTitle: 'Thing'
+exports.contact = (req, res) => {
+  res.render(`${viewPath}/contact`, {
+    pageTitle: 'contact'
   });
 };
